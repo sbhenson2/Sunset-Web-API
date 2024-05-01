@@ -1,14 +1,13 @@
 import requests
 # Latitude and longitude 
-latitude = 37.7749
-longitude = -122.4194
+latitude = 35.31371
+longitude = -83.17653
 
 # Date for sunrise/sunset
-date = "2024-05-02"
+date = "2024-05-01"
 
 # API endpoint for sunrise/sunset
-url = f"https://api.sunrise-sunset.org/json?lat={latitude}&lng={longitude}&date={date}"
-
+url = f"https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400&date=2024-05-01&tzid=%20America/New_York"
 # Send GET request to the API
 response = requests.get(url)
 
