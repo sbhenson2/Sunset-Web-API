@@ -4,7 +4,7 @@ latitude = 35.31371
 longitude = -83.17653
 
 # Date for sunrise/sunset
-date = "2024-05-01"
+date = "2024-05-02"
 
 # API endpoint for sunrise/sunset
 url = f"https://api.sunrise-sunset.org/json?lat=35.3137100&lng=-83.1765300&date=2024-05-01&tzid=America/New_York"
