@@ -7,7 +7,7 @@ longitude = -83.17653
 date = "2024-05-01"
 
 # API endpoint for sunrise/sunset
-url = f"https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400&date=2024-05-01&tzid=%20America/New_York"
+url = f"https://api.sunrise-sunset.org/json?lat=35.3137100&lng=-83.1765300&date=2024-05-01&tzid=America/New_York"
 # Send GET request to the API
 response = requests.get(url)
 
